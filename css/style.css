@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
+  color: #0632f8;
   background: #fff;
 }
 
@@ -45,13 +45,13 @@ body {
 }
 
 a {
-  color: #F73859;
+  color: #0632f8;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F73859;
+  color: #0632f8;
   outline: none;
   text-decoration: none;
 }
@@ -61,7 +61,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: rgb(2, 9, 105);
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -69,17 +69,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #F73859;
+  background: #0632f8;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #F73859;
+  background: #0632f8;
 }
 
 ::selection {
   color: #fff;
-  background: #F73859;
+  background: #0632f8;
 }
 
 .fh5co-nav {
@@ -113,11 +113,11 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo a > span {
-  color: #F73859;
+  color: #0632f8;
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #fff;
+  color: rgb(15, 107, 228);
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: white;
+  color: rgb(12, 143, 231);
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -205,10 +205,10 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #F73859;
+  color: #0632f8;
 }
 .fh5co-nav ul li.btn-cta a span {
-  background: #f35f55;
+  background: rgb(2, 23, 119);
   color: #fff;
   padding: 4px 20px;
   display: -moz-inline-stack;
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 4px;
 }
 .fh5co-nav ul li.btn-cta a:hover span {
-  background: #f14034 !important;
+  background: #5bc0de !important;
   -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
@@ -244,13 +244,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .scrolled .fh5co-nav ul li a:hover, .scrolled .fh5co-nav ul li a:focus, .scrolled .fh5co-nav ul li a:active {
-  color: #F73859 !important;
+  color: #0632f8 !important;
 }
 .scrolled .fh5co-nav ul li.active a {
-  color: #F73859;
+  color: #0632f8;
 }
 .scrolled .fh5co-nav ul li.has-dropdown:hover > a, .scrolled .fh5co-nav ul li.has-dropdown:focus > a {
-  color: #F73859;
+  color: #0632f8;
 }
 
 #fh5co-header,
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: none;
 }
 .pagination > li.active > a {
-  background: #F73859 !important;
+  background: #0632f8 !important;
   -webkit-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
   -ms-box-shadow: 4px 11px 35px -14px rgba(0, 0, 0, 0.5);
@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .pagination > li.active > a:hover {
   cursor: pointer;
-  background: #f96982 !important;
+  background: #6973f9 !important;
 }
 
 .fh5co-social-icons {
@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #F73859;
+  color: #0632f8;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -523,12 +523,13 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1.5;
   margin-bottom: 30px;
   text-transform: uppercase;
+  color:rgb(2, 9, 105)
 }
 #fh5co-header .display-tc .btn,
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 30px;
-  background: #F73859;
+  background: #0632f8;
   color: #fff;
   border: none !important;
   font-size: 18px;
@@ -541,7 +542,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #f6163c !important;
+  background: #02126d !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -657,7 +658,7 @@ h1, h2, h3, h4, h5, h6, figure {
   border-color: #fff transparent;
 }
 #fh5co-testimonial .testimonial.fh5co-selected {
-  background: #F73859;
+  background: #0632f8;
   bottom: 10px;
   -webkit-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
@@ -670,7 +671,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-testimonial .testimonial.fh5co-selected:after {
-  border-color: #F73859 transparent;
+  border-color: #0632f8 transparent;
 }
 @media screen and (max-width: 768px) {
   #fh5co-testimonial .testimonial.fh5co-selected {
@@ -697,10 +698,10 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
 }
 #fh5co-blog .fh5co-post h3 a {
-  color: #F73859;
+  color: #0632f8;
 }
 #fh5co-blog .fh5co-post h3 a:hover {
-  color: #f35f55;
+  color: #0632f8;
 }
 #fh5co-blog .fh5co-post .fh5co-date {
   display: block;
@@ -750,7 +751,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .counter {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #F73859;
+  color: #0632f8;
   font-weight: 100;
   display: block;
 }
@@ -834,7 +835,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-project .fh5co-project > a .fh5co-copy h3 {
   margin: 0 0 5px 0;
   padding: 0;
-  color: #fff;
+  color: #0632f8;
   font-size: 20px;
   font-weight: 400;
 }
@@ -953,10 +954,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .feature-center h3 {
   font-size: 22px;
-  color: #5d5d5d;
+  color: #0632f8;
 }
 .feature-center:hover, .feature-center:focus {
-  background: #F73859;
+  background: #1434c5;
   bottom: 10px;
   -webkit-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
@@ -1006,7 +1007,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.1s;
 }
 .project-grid .desc {
-  background: rgba(247, 56, 89, 0.9);
+  background: #5bc0de;
   padding: 10px 20px;
   position: absolute;
   bottom: -93px;
@@ -1103,7 +1104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 .project-content .desc {
-  background: rgba(247, 56, 89, 0.9);
+  background: #5bc0de;
   padding: 10px 20px;
   position: absolute;
   bottom: -93px;
@@ -1139,12 +1140,12 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0px;
   line-height: 1.5;
   font-weight: 300;
-  color: #000;
+  color: rgb(2, 25, 102);
 }
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #0632f8;
 }
 .fh5co-heading span {
   display: block;
@@ -1152,7 +1153,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
-  color: #cccccc;
+  color: #0004ff;
 }
 
 #fh5co-started {
@@ -1196,7 +1197,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #F73859;
+  background: #0632f8;
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -1205,7 +1206,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-right: 30px;
 }
 #fh5co-started .btn:hover {
-  background: #f6163c !important;
+  background: #1a0af8 !important;
   -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75) !important;
@@ -1228,7 +1229,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
 }
 #fh5co-footer .fh5co-footer-links li a {
-  color: #000;
+  color: #5bc0de
   text-decoration: none;
 }
 #fh5co-footer .fh5co-footer-links li a:hover {
@@ -1512,9 +1513,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #F73859;
+  background: #0632f8;
   color: #fff;
-  border: 2px solid #F73859;
+  border: 2px solid #0632f8;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #f8516d !important;
@@ -1522,11 +1523,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #F73859;
-  border: 2px solid #F73859;
+  color: #0632f8;
+  border: 2px solid #0632f8;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #F73859;
+  background: #0632f8;
   color: #fff;
 }
 
@@ -1656,7 +1657,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #F73859;
+  border-color: #0632f8;
 }
 
 .mb30 {
