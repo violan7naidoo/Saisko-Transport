@@ -120,12 +120,12 @@
               Pop us an email and we'll get back to you </a>.
             </p>
             <div class="bg-light p-4">
-              <form name="name" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="">
+              <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="">
                 <div class="row g-3">
                   <div class="col-md-6">
                     <div class="form-floating">
                       <input
-                       name = "name"
+                        name = "fname"
                         type="text"
                         class="form-control"
                         id="name"
@@ -161,6 +161,7 @@
                   <div class="col-12">
                     <div class="form-floating">
                       <textarea
+                        name = "text"
                         class="form-control"
                         placeholder="Leave a message here"
                         id="message"
